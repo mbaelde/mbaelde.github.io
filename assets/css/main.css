@@ -2232,10 +2232,11 @@ input, select, textarea {
 				background-position: center center;
 			}
 
-			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
-			}
+            #main > section.one {
+                background-color: #81918E;
+                background-image: url("../../images/cover.jpg");
+                /* Photo by Hossam M. Omar from Pexels*/
+            }
 
 			#main > section.two {
 				background-color: #f5fafa;
@@ -2248,6 +2249,7 @@ input, select, textarea {
 			#main > section.four {
 				background-color: #e8edec;
 			}
+
 
 /* Wide */
 
