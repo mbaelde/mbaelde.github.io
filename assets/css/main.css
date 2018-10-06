@@ -124,11 +124,17 @@ input, select, textarea {
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
 			color: #333;
 		}
+    h1 {
+        font-size: 2em;
+        letter-spacing: -1px;
+    }
 
-	h2 {
-		font-size: 2em;
-		letter-spacing: -1px;
-	}
+    h2 {
+        font-size: 2em;
+        letter-spacing: -1px;
+        color: #6ab1ae;
+        font-weight: bold;
+    }
 
 		h2.alt {
 			color: #888;
