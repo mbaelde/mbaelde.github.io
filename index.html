@@ -10,6 +10,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/academicons.min.css" />
 </head>
 <body class="is-preload">
 
@@ -30,6 +31,7 @@
                 <ul>
                     <li><a href="#intro" id="top-link"><span class="icon fa-home">Introduction</span></a></li>
                     <li><a href="#aboutme" id="top-link"><span class="icon fa-user">About Me</span></a></li>
+                    <li><a href="#skills" id="top-link"><span class="icon fa-gears">Skills</span></a></li>
                     <li><a href="#publications" id="portfolio-link"><span class="icon fa-book">Publications</span></a></li>
                     <li><a href="#code" id="about-link"><span class="icon fa-code">Code</span></a></li>
                 </ul>
@@ -43,6 +45,7 @@
             <ul class="icons">
                 <li><a href="https://github.com/mbaelde" class="icon fa-github"><span class="label">Github</span></a></li>
                 <li><a href="mailto:baelde.maxime@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                <li><a href="https://scholar.google.fr/citations?hl=fr&view_op=list_works&gmla=AJsN-F4JgzURzjtvVeN84HTq-cJOspv3uXdlykKKHykbjm5RQWbowFg64kwIJb8fbPBiTZhBiOEdaaXTUKP1GSUVu15jnd04-QjLHg7QOqd3SNz1tf3DE2BjPTA54VhZxkf_LINNGoTB&user=zhw-B7IAAAAJ" class="ai ai-google-scholar"><span class="label"></span></a></li>
             </ul>
 
         </div>
@@ -58,8 +61,8 @@
 
                 <header>
                     <h1>
-                        Welcome to my website! I'm a Data Scientist, Ph. D Student working<br />
-                        for <a href="www.a-volute.com">A-Volute</a> and <a href="https://www.inria.fr/">Inria</a> on machine learning for audio signal processing.
+                        Maxime Baelde </br>
+                        Data Scientist and Ph. D Student
                     </h1>
                 </header>
 
@@ -76,19 +79,88 @@
                     <h2>About me</h2>
                 </header>
 
-                <p>
-                    I'm a Data Scientist and Ph. D Student, specialized in generative models and Deep Learning. My thesis is focused on real-time audio source localization, identification and
-                    separation. My Supervisors are Christophe Biernacki (Professor) and Raphaël Greff (A-Volute R&D Manager).
-                </p>
+                <table>
+                    <tr>
+                        <td><span class="icon fa-user"></span></td>
+                        <td>
+                            I'm a Data Scientist and Ph. D Student, specialized in audio signal processing, generative models and Deep Learning.
+                        </td>
+                    </tr>
 
-                <p>I'm graduated from Ecole Centrale de Lille (Master Decision and Data Analysis) and University Lille 1 (Master Research Applied Mathematics).</p>
+                    <tr>
+                        <td>
+                            <span class="icon fa-laptop"></span>
+                        </td>
+                        <td>
+                            My thesis is focused on real-time audio source localization, identification and
+                            separation. My supervisors are Christophe Biernacki (Scientific Deputy at <a href="https://www.inria.fr/en/">Inria Lille</a>) and Raphaël Greff (R&D Director at <a href="http://www.a-volute.com/">A-Volute</a>).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="icon fa-graduation-cap"></span>
+                        </td>
+                        <td>
+                            I'm graduated from <a href="http://centralelille.fr/">Ecole Centrale de Lille</a> (Master Decision and Data Analysis) and <a href="https://www.univ-lille.fr/home/">University Lille 1 </a> (Master Research Applied Mathematics).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="icon fa-music"></span>
+                        </td>
+                        <td>
+                            I'm also a self-taught musician (guitarist, bassist, pianist) for about 10 years, mainly playing Progressive Metal musics (Meshuggah, Periphery, ...) and Muse.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="icon fa-gamepad"></span>
+                        </td>
+                        <td>
+                            Finally I'm a casual video game player, Nintendaddict (The Legend of Zelda serie) and Switch player.
+                        </td>
+                    </tr>
 
+                </table>
+            </div>
+        </section>
 
+        <!-- Skills -->
+        <section id="skills" class="three">
+            <div class="container">
+
+                <header>
+                    <h2>Skills</h2>
+                </header>
+
+                <table class="tab-skill">
+                    <tr>
+                        <th><span class="icon fa-laptop"></span> Machine Learning</th>
+                        <th><span class="icon fa-terminal"></span> Programming</th>
+                        <th><span class="icon fa-institution"></span> Teaching</th>
+                        <th><span class="icon fa-folder-open"></span> Intellectual Property</th>
+                    </tr>
+
+                    <tr>
+                        <td>Deep Learning</td>
+                        <td>Python</td>
+                        <td>Statistics</td>
+                        <td>Patent review</td>
+                    </tr>
+
+                    <tr>
+                        <td>Generative Models</td>
+                        <td>Tensorflow</td>
+                        <td>Signal Processing</td>
+                        <td>Patent writing</td>
+                    </tr>
+
+                </table>
             </div>
         </section>
 
         <!-- Publications -->
-        <section id="publications" class="three">
+        <section id="publications" class="four">
             <p class="container">
 
                 <header>
@@ -110,45 +182,46 @@
 
             <p>
                 <h3>2017</h3>
-                
-                    <table>
-                        <tr>
-                            <td><span class="icon fa-book"></span></td>
-                            <td>Maxime Baelde, Christophe Biernacki, Raphaël Greff. Classification de signaux audio en temps-réel par un modèle de mélanges d’histogrammes.
-                                49èmes Journées de Statistiques, June 2017, Avignon, France.
-                                <a href="http://jds2017.sfds.asso.fr/program/Soumissions/subm97.pdf" target="_blank">[paper]</a>
-                            </td>
-                        </tr>
 
-                        <tr>
-                            <td>
-                                <span class="icon fa-comment"></span>
-                            </td>
-                            <td>
-                                Real-time source sources identification. Presentation at 7èmes Rencontres Jeunes Statisticiens, 5 April 2017, Porquerolles, France.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <span class="icon fa-book"></span>
-                            </td>
-                            <td>
-                                Maxime Baelde, Christophe Biernacki, Raphaël Greff. A mixture model-based real-time audio sources
-                                classification method. 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 5-9 Mar 2017, pp. 2427-2431, New Orleans, USA.
-                                <a href="http://ieeexplore.ieee.org/abstract/document/7952592/" target="_blank">[paper]</a>,
-                                <a href="https://sigport.org/documents/real-time-audio-classifi-cation-based-mixture-models" target="_blank">[poster]</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <span class="icon fa-comment"></span>
-                            </td>
-                            <td>
-                                Real-time source sources identification. Presentation at Modal's Day on the first year of the thesis, 20 January 2017, Le Touquet, France.
-                            </td>
-                        </tr>
-                    </table>
-                
+                <table>
+                    <tr>
+                        <td><span class="icon fa-book"></span></td>
+                        <td>
+                            Maxime Baelde, Christophe Biernacki, Raphaël Greff. Classification de signaux audio en temps-réel par un modèle de mélanges d’histogrammes.
+                            49èmes Journées de Statistiques, June 2017, Avignon, France.
+                            <a href="http://jds2017.sfds.asso.fr/program/Soumissions/subm97.pdf" target="_blank">[paper]</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <span class="icon fa-comment"></span>
+                        </td>
+                        <td>
+                            Real-time source sources identification. Presentation at 7èmes Rencontres Jeunes Statisticiens, 5 April 2017, Porquerolles, France.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="icon fa-book"></span>
+                        </td>
+                        <td>
+                            Maxime Baelde, Christophe Biernacki, Raphaël Greff. A mixture model-based real-time audio sources
+                            classification method. 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 5-9 Mar 2017, pp. 2427-2431, New Orleans, USA.
+                            <a href="http://ieeexplore.ieee.org/abstract/document/7952592/" target="_blank">[paper]</a>,
+                            <a href="https://sigport.org/documents/real-time-audio-classifi-cation-based-mixture-models" target="_blank">[poster]</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="icon fa-comment"></span>
+                        </td>
+                        <td>
+                            Real-time source sources identification. Presentation at Modal's Day on the first year of the thesis, 20 January 2017, Le Touquet, France.
+                        </td>
+                    </tr>
+                </table>
+
             </p>
             <p>
                 <h3>2016</h3>
@@ -186,7 +259,7 @@
                     </tr>
                 </table>
             </p>
-            <p> 
+            <p>
                 <h3>2014</h3>
                 <table>
                     <tr>
@@ -205,7 +278,7 @@
         </section>
 
         <!-- Code -->
-        <section id="code" class="four">
+        <section id="code" class="five">
             <div class="container">
 
                 <header>
@@ -216,7 +289,7 @@
                     Here you will find some code I developped, available on Github.
                 </p>
 
-                
+
 
             </div>
         </section>

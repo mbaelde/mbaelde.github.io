@@ -74,22 +74,30 @@ input, select, textarea {
 
 /* Basic */
 
-	html {
-		box-sizing: border-box;
-	}
+table.tab-skill th {
+    text-align: center;
+}
+table.tab-skill td {
+    text-align: center;
+    font-size: 14pt;
+}
+
+html {
+    box-sizing: border-box;
+}
 
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
 
-	body {
-		background: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
-		font-weight: 300;
-		line-height: 1.75em;
-		color: #888;
-	}
+body {
+    background: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19pt;
+    font-weight: 300;
+    line-height: 1.75em;
+    color: #0d0d0d; /*#888;*/
+}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -1917,20 +1925,21 @@ input, select, textarea {
 		text-align: left;
 	}
 
-		table tbody tr:nth-child(2n+2) {
+		/*table tbody tr:nth-child(2n+2) {
 			background: #f4f4f4;
-		}
+		}*/
 
 		table td {
 			padding: 0.5em 1em 0.5em 1em;
 		}
 
-		table th {
-			text-align: left;
-			padding: 0.5em 1em 0.5em 1em;
-			color: #fff;
-			background: #222729 url("images/overlay.png");
-		}
+        table th {
+            text-align: left;
+            padding: 0.5em 1em 0.5em 1em;
+            font-weight: bold;
+            /*color: #fff;
+			background: #222729 url("images/overlay.png");*/
+        }
 
 		table thead {
 			background: #444;
@@ -2242,6 +2251,7 @@ input, select, textarea {
                 background-color: #81918E;
                 background-image: url("../../images/cover.jpg");
                 /* Photo by Hossam M. Omar from Pexels*/
+                /* todo: change*/
             }
 
 			#main > section.two {
