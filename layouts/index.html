@@ -1,0 +1,33 @@
+{{ define "main" }}
+<section id="about" class="mb-20 relative">
+    <!-- Subtle background glow -->
+    <div
+        class="absolute -top-10 -left-10 w-64 h-64 bg-emerald-500 rounded-full mix-blend-multiply filter blur-[100px] opacity-10 dark:opacity-20 pointer-events-none">
+    </div>
+    <div
+        class="absolute -bottom-10 -right-10 w-64 h-64 bg-teal-500 rounded-full mix-blend-multiply filter blur-[100px] opacity-10 dark:opacity-20 pointer-events-none">
+    </div>
+
+    <h2 class="text-3xl font-sans font-bold mb-6 pb-2 border-b border-gray-200 dark:border-gray-800 relative z-10">About
+        Me</h2>
+    <div class="prose dark:prose-invert max-w-none text-lg leading-relaxed text-slate dark:text-gray-300 relative z-10">
+        {{ .Content }}
+    </div>
+</section>
+
+{{ if site.Params.features.research }}
+{{ partial "home/research.html" . }}
+{{ end }}
+
+{{ if site.Params.features.publications }}
+{{ partial "home/publications.html" . }}
+{{ end }}
+
+{{ if site.Params.features.code }}
+{{ partial "home/code.html" . }}
+{{ end }}
+
+{{ if site.Params.features.music }}
+{{ partial "home/music.html" . }}
+{{ end }}
+{{ end }}

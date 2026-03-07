@@ -1,1 +1,0 @@
-Personal Github web page based on Prologue theme by HTML5Up.

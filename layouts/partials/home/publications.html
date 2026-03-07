@@ -1,0 +1,48 @@
+<section id="publications" class="mb-20 relative">
+    <!-- Subtle background glow -->
+    <div
+        class="absolute -top-10 -left-10 w-64 h-64 bg-indigo-500 rounded-full mix-blend-multiply filter blur-[100px] opacity-10 dark:opacity-20 pointer-events-none">
+    </div>
+    <div
+        class="absolute -bottom-10 -right-10 w-64 h-64 bg-sky-500 rounded-full mix-blend-multiply filter blur-[100px] opacity-10 dark:opacity-20 pointer-events-none">
+    </div>
+
+    <h2 class="text-3xl font-sans font-bold mb-6 pb-2 border-b border-gray-200 dark:border-gray-800 relative z-10">
+        Publications</h2>
+
+    <div class="space-y-8 mt-8 relative z-10">
+        {{ $pubs := site.Data.publications }}
+        {{ range $group := $pubs }}
+        <div>
+            <h3 class="text-xl font-bold text-slate dark:text-gray-300 mb-4">{{ $group.year }}</h3>
+            <div class="space-y-4">
+                {{ range $group.items }}
+                <div
+                    class="flex gap-4 p-4 rounded-lg bg-white dark:bg-dark-bg border border-gray-100 dark:border-gray-800 hover:border-gray-300 dark:hover:border-gray-600 transition-colors">
+                    <div class="flex-shrink-0 pt-1">
+                        {{ if eq .type "thesis" }}<i class="fa-solid fa-graduation-cap text-gray-400"></i>
+                        {{ else if eq .type "article" }}<i class="fa-solid fa-file-lines text-gray-400"></i>
+                        {{ else if eq .type "presentation" }}<i class="fa-solid fa-comment text-gray-400"></i>
+                        {{ else }}<i class="fa-solid fa-book text-gray-400"></i>{{ end }}
+                    </div>
+                    <div>
+                        <div class="text-base text-slate dark:text-gray-300 font-serif">
+                            {{ .markdown | markdownify }}
+                        </div>
+                        {{ if .links }}
+                        <div class="flex gap-3 mt-2 text-sm font-sans font-medium">
+                            {{ range .links }}
+                            <a href="{{ .url }}" target="_blank"
+                                class="text-gray-500 hover:text-slate dark:text-gray-400 dark:hover:text-ivory no-underline border border-gray-200 dark:border-gray-700 px-2 py-0.5 rounded hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">[{{
+                                .name }}]</a>
+                            {{ end }}
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>

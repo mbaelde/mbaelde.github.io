@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode | default " en" }}">
+
+<head>
+    {{ partial "head.html" . }}
+</head>
+
+<body class="flex flex-col lg:flex-row min-h-screen relative overflow-x-hidden">
+
+    <!-- Subtle musical background pattern -->
+    <div
+        class="fixed inset-0 pointer-events-none opacity-5 dark:opacity-10 z-0 bg-[radial-gradient(circle_at_2px_2px,rgba(0,0,0,0.1)_1px,transparent_0)] dark:bg-[radial-gradient(circle_at_2px_2px,rgba(255,255,255,0.1)_1px,transparent_0)] bg-[size:32px_32px]">
+    </div>
+
+    <div class="relative z-10 w-full flex flex-col lg:flex-row min-h-screen">
+        {{ partial "header.html" . }}
+
+        <main class="flex-1 w-full max-w-4xl lg:ml-80 xl:ml-96 p-8 lg:p-16">
+            {{ block "main" . }}{{ end }}
+        </main>
+
+        {{ partial "footer.html" . }}
+    </div>
+</body>
+
+</html>

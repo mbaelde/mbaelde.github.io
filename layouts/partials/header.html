@@ -1,0 +1,68 @@
+<header
+    class="w-full lg:w-80 xl:w-96 lg:h-screen lg:fixed lg:top-0 lg:left-0 bg-ivory dark:bg-dark-bg border-b lg:border-r lg:border-b-0 border-gray-200 dark:border-gray-800 p-8 flex flex-col justify-between z-50">
+    <div>
+        <div class="text-center lg:text-left mb-8">
+            {{ if site.Params.avatar }}
+            <img src="{{ site.Params.avatar }}" alt="Maxime Baelde Avatar"
+                class="w-32 h-32 rounded-full mx-auto lg:mx-0 object-cover mb-6 shadow-sm border-2 border-slate dark:border-gray-700">
+            {{ end }}
+            <div class="flex items-center justify-center lg:justify-start gap-4 mb-3">
+                <h1 class="text-3xl font-sans font-bold m-0 tracking-tight text-slate dark:text-dark-text">
+                    <a href="{{ site.Home.RelPermalink }}"
+                        class="no-underline text-inherit hover:text-gray-600 dark:hover:text-gray-300">{{ site.Title
+                        }}</a>
+                </h1>
+
+                <!-- Animated Audio Equalizer -->
+                <div class="flex items-end gap-[2px] h-4 w-5 opacity-70" aria-hidden="true" title="Music Producer">
+                    <div class="w-1 bg-blue-500 rounded-t animate-[eq_1.2s_ease-in-out_infinite_alternate]"></div>
+                    <div class="w-1 bg-blue-500 rounded-t animate-[eq_0.8s_ease-in-out_infinite_alternate_0.2s]"></div>
+                    <div class="w-1 bg-blue-500 rounded-t animate-[eq_1.5s_ease-in-out_infinite_alternate_0.4s]"></div>
+                    <div class="w-1 bg-blue-500 rounded-t animate-[eq_1.1s_ease-in-out_infinite_alternate_0.1s]"></div>
+                </div>
+            </div>
+
+            <p class="text-gray-600 dark:text-gray-400 font-serif leading-relaxed text-sm">
+                {{ site.Params.description | markdownify }}
+            </p>
+        </div>
+
+        <nav class="mt-8">
+            <ul
+                class="flex flex-row lg:flex-col justify-center lg:justify-start flex-wrap gap-4 lg:gap-3 list-none p-0">
+                {{ range site.Menus.main }}
+                <li>
+                    <a href="{{ .URL }}"
+                        class="font-sans text-sm tracking-wide uppercase px-2 py-1 lg:p-0 block transition-colors duration-200 font-semibold text-gray-500 dark:text-gray-400 hover:text-slate dark:hover:text-ivory no-underline">
+                        {{ .Name }}
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </nav>
+    </div>
+
+    <div class="hidden lg:block mt-8">
+        <div class="flex gap-4 text-xl">
+            {{ if site.Params.social.github }}<a href="{{ site.Params.social.github }}" target="_blank"
+                aria-label="GitHub" class="text-gray-400 hover:text-slate dark:hover:text-ivory transition-colors"><i
+                    class="fa-brands fa-github"></i></a>{{ end }}
+            {{ if site.Params.social.email }}<a href="mailto:{{ site.Params.social.email }}" aria-label="Email"
+                class="text-gray-400 hover:text-slate dark:hover:text-ivory transition-colors"><i
+                    class="fa-solid fa-envelope"></i></a>{{ end }}
+            {{ if site.Params.social.scholar }}<a href="{{ site.Params.social.scholar }}" target="_blank"
+                aria-label="Google Scholar"
+                class="text-gray-400 hover:text-slate dark:hover:text-ivory transition-colors"><i
+                    class="ai ai-google-scholar"></i></a>{{ end }}
+            {{ if site.Params.social.linkedin }}<a href="{{ site.Params.social.linkedin }}" target="_blank"
+                aria-label="LinkedIn" class="text-gray-400 hover:text-slate dark:hover:text-ivory transition-colors"><i
+                    class="fa-brands fa-linkedin"></i></a>{{ end }}
+            {{ if site.Params.social.bandcamp }}<a href="{{ site.Params.social.bandcamp }}" target="_blank"
+                aria-label="Bandcamp" class="text-gray-400 hover:text-slate dark:hover:text-ivory transition-colors"><i
+                    class="fa-brands fa-bandcamp"></i></a>{{ end }}
+        </div>
+        <div class="text-xs text-gray-500 dark:text-gray-500 mt-6 list-none p-0">
+            &copy; {{ now.Format "2006" }} Maxime Baelde. <br /> Built with Hugo & Tailwind.
+        </div>
+    </div>
+</header>
