@@ -1,7 +1,6 @@
 baseURL = "https://mbaelde.github.io/"
 languageCode = "en-us"
 title = "Maxime Baelde, Ph.D"
-theme = ""
 
 [params]
   description = "Senior Data Scientist | Machine Learning Engineer<br>Ph.D. in Artificial Intelligence<br>Music Producer @ [MB Prod](https://mbprod-studio.com/)"
