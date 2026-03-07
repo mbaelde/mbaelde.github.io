@@ -1,5 +1,35 @@
 [
     {
+        "year": "2024",
+        "items": [
+            {
+                "type": "patent",
+                "markdown": "Maxime Baelde, Nathan Souviraà-Labastie, Raphaël Greff. \"Apparatus and method for audio analysis\". US Patent US11956616B2, April 9, 2024.",
+                "links": [
+                    {
+                        "name": "patent",
+                        "url": "https://patents.google.com/patent/US11956616B2/en"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "year": "2023",
+        "items": [
+            {
+                "type": "patent",
+                "markdown": "Maxime Baelde, Laurent Mareuge, Julien Roland. \"Système de reconnaissance et d'identification de sources sonores en temps réel\". French Patent FR3109458B1, August 26, 2022.",
+                "links": [
+                    {
+                        "name": "patent",
+                        "url": "https://patents.google.com/patent/FR3109458B1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "year": "2019",
         "items": [
             {
