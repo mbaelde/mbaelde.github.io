@@ -2,6 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
 <meta name="description" content="{{ site.Params.description | default "" }}">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
 <!-- CSS via Hugo Pipes with PostCSS/Tailwind -->
 {{ $css := resources.Get "css/main.css" | postCSS }}
@@ -16,7 +17,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
-{{ if not site.IsServer }}
+{{ if not hugo.IsServer }}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QWTZE2HVCH"></script>
 <script>

@@ -2,20 +2,26 @@
     class="lg:hidden p-8 border-t border-gray-200 dark:border-gray-800 text-center text-sm text-gray-500 bg-ivory dark:bg-dark-bg mt-auto">
     <div class="flex justify-center gap-6 text-2xl mb-6">
         {{ if site.Params.social.github }}<a href="{{ site.Params.social.github }}" target="_blank" aria-label="GitHub"
-            class="text-gray-400 hover:text-slate dark:hover:text-ivory"><i class="fa-brands fa-github"></i></a>{{ end
+            class="text-gray-800 dark:text-gray-200 opacity-70 hover:opacity-100 transition-opacity"><i class="fa-brands fa-github"></i></a>{{ end
         }}
         {{ if site.Params.social.email }}<a href="mailto:{{ site.Params.social.email }}" aria-label="Email"
-            class="text-gray-400 hover:text-slate dark:hover:text-ivory"><i class="fa-solid fa-envelope"></i></a>{{ end
+            class="text-amber-500 opacity-70 hover:opacity-100 transition-opacity"><i class="fa-solid fa-envelope"></i></a>{{ end
         }}
         {{ if site.Params.social.scholar }}<a href="{{ site.Params.social.scholar }}" target="_blank"
-            aria-label="Google Scholar" class="text-gray-400 hover:text-slate dark:hover:text-ivory"><i
+            aria-label="Google Scholar" class="text-[#4285F4] opacity-70 hover:opacity-100 transition-opacity"><i
                 class="ai ai-google-scholar"></i></a>{{ end }}
         {{ if site.Params.social.linkedin }}<a href="{{ site.Params.social.linkedin }}" target="_blank"
-            aria-label="LinkedIn" class="text-gray-400 hover:text-slate dark:hover:text-ivory"><i
+            aria-label="LinkedIn" class="text-[#0A66C2] opacity-70 hover:opacity-100 transition-opacity"><i
                 class="fa-brands fa-linkedin"></i></a>{{ end }}
         {{ if site.Params.social.bandcamp }}<a href="{{ site.Params.social.bandcamp }}" target="_blank"
-            aria-label="Bandcamp" class="text-gray-400 hover:text-slate dark:hover:text-ivory"><i
+            aria-label="Bandcamp" class="text-[#1DA0C3] opacity-70 hover:opacity-100 transition-opacity"><i
                 class="fa-brands fa-bandcamp"></i></a>{{ end }}
+        {{ if site.Params.social.mbprodstudio }}<a href="{{ site.Params.social.mbprodstudio }}" target="_blank"
+            aria-label="MB Prod Studio" class="opacity-70 hover:opacity-100 transition-opacity inline-block"><img
+                src="/images/mbprod-studio-icon.png" alt="MB Prod Studio" class="w-6 h-6"></a>{{ end }}
+        {{ if site.Params.social.duetly }}<a href="{{ site.Params.social.duetly }}" target="_blank"
+            aria-label="Duetly" class="opacity-70 hover:opacity-100 transition-opacity inline-block"><img
+                src="/images/duetly-icon.png" alt="Duetly" class="w-6 h-6"></a>{{ end }}
     </div>
     <p>&copy; {{ now.Format "2006" }} Maxime Baelde. All rights reserved.</p>
 </footer>

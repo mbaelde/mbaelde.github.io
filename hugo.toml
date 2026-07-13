@@ -13,6 +13,8 @@ title = "Maxime Baelde, Ph.D"
     scholar = "https://scholar.google.fr/citations?hl=fr&view_op=list_works&user=zhw-B7IAAAAJ"
     linkedin = "https://www.linkedin.com/in/maxime-baelde-phd/"
     bandcamp = "https://fractonband.bandcamp.com/"
+    mbprodstudio = "https://mbprod-studio.com/"
+    duetly = "https://duetly.app"
 
   [params.features]
     research = true
