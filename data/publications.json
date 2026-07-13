@@ -1,5 +1,20 @@
 [
     {
+        "year": "2026",
+        "items": [
+            {
+                "type": "article",
+                "markdown": "Maxime Baelde. \"Threshold-Cascaded Lexicographic Rewards for Multi-Constrained RL in Real-Time Bidding\". Submitted to TMLR (Transactions on Machine Learning Research), under review.",
+                "links": [
+                    {
+                        "name": "openreview",
+                        "url": "https://openreview.net/forum?id=BtLMJhSkIt"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "year": "2024",
         "items": [
             {
