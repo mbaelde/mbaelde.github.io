@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Maxime Baelde, Ph.D"
 
 [params]
-  description = "Senior Data Scientist | Machine Learning Engineer<br>Ph.D. in Artificial Intelligence<br>Music Producer @ [MB Prod](https://mbprod-studio.com/)"
+  description = "Senior Data Scientist | Machine Learning Engineer<br>Ph.D. in Artificial Intelligence<br>Music Producer @ [MB Prod](https://mbprod-studio.com/)<br>Building [Duetly](https://duetly.app)"
   avatar = "/images/maxime.jpg"
   math = true
 

@@ -10,6 +10,8 @@ I graduated from [University Lille 1](https://www.univ-lille.fr/home/) (Ph.D. in
 
 I'm also a self-taught musician (guitarist, bassist, pianist) for about 10 years, mainly playing Progressive Metal musics (Meshuggah, Periphery, ...) and Muse. I have a [YouTube channel](https://www.youtube.com/channel/UC8g3OWCZtK0d7_DxEjWpPJA) where I post guitar and bass covers of various songs. I also have a [Bandcamp page](https://fractonband.bandcamp.com/) for my solo music project Fracton. If needed you can stream my music from almost any platform like [Spotify](https://open.spotify.com/intl-fr/artist/5EsnLipzkYCrODoeCcPklW).
 
+I'm also building [Duetly](https://duetly.app/), a revision and file-transfer platform for audio engineers and their artists, under the MB Prod brand.
+
 Finally, I'm a casual video game player, Nintendaddict (The Legend of Zelda series) and Switch player.
 
 You can find my résumé [here](/documents/Resume_Maxime_BAELDE.pdf).
