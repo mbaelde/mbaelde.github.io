@@ -4,6 +4,20 @@
 <meta name="description" content="{{ site.Params.description | default "" }}">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
+<!-- Theme: stored choice, else the OS preference. Must run before paint, hence inline and blocking. -->
+<script>
+  (function () {
+    var root = document.documentElement;
+    var stored = null;
+    try { stored = localStorage.getItem('theme'); } catch (e) { }
+    root.classList.toggle('dark', stored ? stored === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches);
+    window.toggleTheme = function () {
+      var dark = root.classList.toggle('dark');
+      try { localStorage.setItem('theme', dark ? 'dark' : 'light'); } catch (e) { }
+    };
+  })();
+</script>
+
 <!-- CSS via Hugo Pipes with PostCSS/Tailwind -->
 {{ $css := resources.Get "css/main.css" | postCSS }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">

@@ -20,6 +20,14 @@
                     <div class="w-1 bg-blue-500 rounded-t animate-[eq_1.5s_ease-in-out_infinite_alternate_0.4s]"></div>
                     <div class="w-1 bg-blue-500 rounded-t animate-[eq_1.1s_ease-in-out_infinite_alternate_0.1s]"></div>
                 </div>
+
+                <!-- Theme toggle. Icons wrapped in spans: Font Awesome loads after our stylesheet and its
+                     own display rule would beat Tailwind's `hidden` if applied on the <i> itself. -->
+                <button type="button" onclick="toggleTheme()" aria-label="Toggle dark mode" title="Toggle dark mode"
+                    class="text-gray-500 dark:text-gray-400 hover:text-slate dark:hover:text-ivory transition-colors duration-200">
+                    <span class="dark:hidden"><i class="fa-solid fa-moon"></i></span>
+                    <span class="hidden dark:inline"><i class="fa-solid fa-sun"></i></span>
+                </button>
             </div>
 
             <p class="text-gray-600 dark:text-gray-400 font-serif leading-relaxed text-sm">
