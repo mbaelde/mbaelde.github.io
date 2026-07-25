@@ -23,6 +23,10 @@
 {{ partial "home/publications.html" . }}
 {{ end }}
 
+{{ if site.Params.features.writing }}
+{{ partial "home/writing.html" . }}
+{{ end }}
+
 {{ if site.Params.features.code }}
 {{ partial "home/code.html" . }}
 {{ end }}

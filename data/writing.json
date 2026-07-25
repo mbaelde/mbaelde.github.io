@@ -1,0 +1,23 @@
+[
+    {
+        "year": "2026",
+        "items": [
+            {
+                "type": "article",
+                "title": "4 self-hosting failures that return success",
+                "date": "July 2026",
+                "markdown": "Four ways a self-hosted server reports success while being broken: a `200` on a gated WebDAV endpoint, a healthcheck with no `curl` in the image, a backup that exits 0 with an empty archive, and a Wake-on-LAN packet that quietly evaporates. Companion repo: [sober-selfhost](https://github.com/mbaelde/sober-selfhost).",
+                "links": [
+                    {
+                        "name": "dev.to (EN)",
+                        "url": "https://dev.to/mbaelde/4-self-hosting-failures-that-return-success-1go5"
+                    },
+                    {
+                        "name": "LinkedIn (FR)",
+                        "url": "https://www.linkedin.com/pulse/les-pannes-de-self-hosting-qui-te-mentent-maxime-baelde-ph-d-rl6de"
+                    }
+                ]
+            }
+        ]
+    }
+]

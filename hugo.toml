@@ -19,6 +19,7 @@ title = "Maxime Baelde, Ph.D"
   [params.features]
     research = true
     publications = true
+    writing = true
     code = true
     music = true
 
@@ -35,6 +36,11 @@ title = "Maxime Baelde, Ph.D"
     name = "Publications"
     url = "#publications"
     weight = 30
+  [[menu.main]]
+    name = "Writing"
+    url = "#writing"
+    weight = 35
+
   [[menu.main]]
     name = "Code"
     url = "#code"
