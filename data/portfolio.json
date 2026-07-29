@@ -1,59 +1,86 @@
 [
-    {
-        "title": "churn-poc",
-        "description": "End-to-end churn prediction project: model training to API exposition with FastAPI.",
-        "links": [
-            { "name": "GitHub", "url": "https://github.com/mbaelde/churn-poc" }
-        ]
-    },
-    {
-        "title": "vst-plugins",
-        "description": "A set of VST plugins",
-        "links": [
-            { "name": "GitHub", "url": "https://github.com/mbaelde/vst-plugins" }
-        ]
-    },
-    {
-        "title": "generative-audio-source-models",
-        "description": "Generative models for real-time audio source classification and separation (PhD thesis, Univ. Lille 2019)",
-        "links": [
-            { "name": "GitHub", "url": "https://github.com/mbaelde/generative-audio-source-models" }
-        ]
-    },
-    {
-        "title": "nongaussian-mixtures",
-        "description": "Scikit-learn-compatible mixture models (Dirichlet, Beta, binned Gaussian) from my thesis appendices.",
-        "links": [
-            { "name": "GitHub", "url": "https://github.com/mbaelde/nongaussian-mixtures" },
-            { "name": "PyPI", "url": "https://pypi.org/project/nongaussian-mixtures/" }
-        ]
-    },
-    {
-        "title": "sober-selfhost",
-        "description": "Energy-sober self-hosting on consumer hardware: on-demand containers (Sablier) gated behind Caddy, multi-DB encrypted backups (Postgres/MariaDB/SQLite → rclone crypt), bidirectional Wake-on-LAN over Tailscale, and battle-tested Docker healthcheck fixes. A NAS that sleeps when idle and wakes on demand.",
-        "links": [
-            { "name": "GitHub", "url": "https://github.com/mbaelde/sober-selfhost" }
-        ]
-    },
-    {
-        "title": "simple-vad",
-        "description": "Voice Activity Detector: signal-processing beamforming + CNN classifier",
-        "links": [
-            { "name": "GitHub", "url": "https://github.com/mbaelde/simple-vad" }
-        ]
-    },
-    {
-        "title": "launchpad",
-        "description": "2x2 soundboard Android app, built for my kids.",
-        "links": [
-            { "name": "GitHub", "url": "https://github.com/mbaelde/launchpad" }
-        ]
-    },
-    {
-        "title": "dadabovic-led-rgb-matrix",
-        "description": "Scripts to drive RGB LED panels for live shows.",
-        "links": [
-            { "name": "GitHub", "url": "https://github.com/mbaelde/dadabovic-led-rgb-matrix" }
-        ]
-    }
+  {
+    "title": "churn-poc",
+    "description": "End-to-end churn prediction project: model training to API exposition with FastAPI.",
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/mbaelde/churn-poc"
+      }
+    ]
+  },
+  {
+    "title": "dadabovic-led-rgb-matrix",
+    "description": "Scripts to drive RGB LED panels for live shows.",
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/mbaelde/dadabovic-led-rgb-matrix"
+      }
+    ]
+  },
+  {
+    "title": "generative-audio-source-models",
+    "description": "Generative models for real-time audio source classification and separation (PhD thesis, Univ. Lille 2019)",
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/mbaelde/generative-audio-source-models"
+      }
+    ]
+  },
+  {
+    "title": "launchpad",
+    "description": "2x2 soundboard Android app, built for my kids.",
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/mbaelde/launchpad"
+      }
+    ]
+  },
+  {
+    "title": "nongaussian-mixtures",
+    "description": "Scikit-learn-compatible mixture models (Dirichlet, Beta, binned Gaussian) from my thesis appendices.",
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/mbaelde/nongaussian-mixtures"
+      },
+      {
+        "name": "PyPI",
+        "url": "https://pypi.org/project/nongaussian-mixtures/"
+      }
+    ]
+  },
+  {
+    "title": "simple-vad",
+    "description": "Voice Activity Detector: signal-processing beamforming + CNN classifier",
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/mbaelde/simple-vad"
+      }
+    ]
+  },
+  {
+    "title": "sober-selfhost",
+    "description": "Energy-sober self-hosting on consumer hardware: on-demand containers (Sablier) gated behind Caddy, multi-DB encrypted backups (Postgres/MariaDB/SQLite → rclone crypt), bidirectional Wake-on-LAN over Tailscale, and battle-tested Docker healthcheck fixes. A NAS that sleeps when idle and wakes on demand.",
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/mbaelde/sober-selfhost"
+      }
+    ]
+  },
+  {
+    "title": "vst-plugins",
+    "description": "A set of VST plugins",
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/mbaelde/vst-plugins"
+      }
+    ]
+  }
 ]
