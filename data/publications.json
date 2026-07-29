@@ -54,6 +54,10 @@
                     {
                         "name": "thesis",
                         "url": "https://theses.fr/2019LILUI058"
+                    },
+                    {
+                        "name": "code",
+                        "url": "https://github.com/mbaelde/generative-audio-source-models"
                     }
                 ]
             },
