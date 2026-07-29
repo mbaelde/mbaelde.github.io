@@ -14,72 +14,45 @@
         available on Github.</p>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 relative z-10">
-        <a href="https://github.com/mbaelde/churn-poc"
-            class="block bg-white dark:bg-dark-bg p-6 rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-gray-300 dark:hover:border-gray-600 transition-all no-underline group block text-inherit">
-            <div class="flex items-center gap-3 mb-3">
-                <i
-                    class="fa-solid fa-laptop text-slate dark:text-gray-300 group-hover:text-blue-500 transition-colors"></i>
-                <h3 class="text-lg font-bold m-0 group-hover:text-blue-500 transition-colors">Churn POC</h3>
-            </div>
-            <p
-                class="text-sm text-gray-600 dark:text-gray-400 font-serif leading-relaxed m-0 group-hover:text-gray-700 dark:group-hover:text-gray-300 transition-colors">
-                I created an end-to-end project on a churn problem, from basic model training to API exposition using
-                FastAPI.</p>
-        </a>
-
-        <a href="https://github.com/mbaelde/vst-plugins"
-            class="block bg-white dark:bg-dark-bg p-6 rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-gray-300 dark:hover:border-gray-600 transition-all no-underline group block text-inherit">
-            <div class="flex items-center gap-3 mb-3">
-                <i
-                    class="fa-solid fa-laptop text-slate dark:text-gray-300 group-hover:text-blue-500 transition-colors"></i>
-                <h3 class="text-lg font-bold m-0 group-hover:text-blue-500 transition-colors">VST Plugins</h3>
-            </div>
-            <p
-                class="text-sm text-gray-600 dark:text-gray-400 font-serif leading-relaxed m-0 group-hover:text-gray-700 dark:group-hover:text-gray-300 transition-colors">
-                I have started to implement some audio processing effects in VST plugins.</p>
-        </a>
-
-        <a href="https://github.com/mbaelde/generative-audio-source-models"
-            class="block bg-white dark:bg-dark-bg p-6 rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-gray-300 dark:hover:border-gray-600 transition-all no-underline group block text-inherit">
-            <div class="flex items-center gap-3 mb-3">
-                <i
-                    class="fa-solid fa-laptop text-slate dark:text-gray-300 group-hover:text-blue-500 transition-colors"></i>
-                <h3 class="text-lg font-bold m-0 group-hover:text-blue-500 transition-colors">Generative Audio Source
-                    Models</h3>
-            </div>
-            <p
-                class="text-sm text-gray-600 dark:text-gray-400 font-serif leading-relaxed m-0 group-hover:text-gray-700 dark:group-hover:text-gray-300 transition-colors">
-                Code from my PhD thesis on generative models for real-time audio classification and separation
-                (RARE, DM-GMM, Def-MAP).</p>
-        </a>
-
+        {{ range site.Data.portfolio }}
         <div
             class="bg-white dark:bg-dark-bg p-6 rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-gray-300 dark:hover:border-gray-600 transition-all">
             <div class="flex items-center gap-3 mb-3">
                 <i class="fa-solid fa-laptop text-slate dark:text-gray-300"></i>
-                <h3 class="text-lg font-bold m-0">Nongaussian Mixtures</h3>
+                <h3 class="text-lg font-bold m-0">{{ .title }}</h3>
             </div>
             <p class="text-sm text-gray-600 dark:text-gray-400 font-serif leading-relaxed m-0 mb-3">
-                Scikit-learn-compatible mixture models (Dirichlet, Beta, binned Gaussian) from my thesis' appendices.</p>
+                {{ .description }}</p>
             <div class="flex gap-3 text-sm font-sans font-medium">
-                <a href="https://github.com/mbaelde/nongaussian-mixtures" target="_blank"
-                    class="text-gray-500 hover:text-slate dark:text-gray-400 dark:hover:text-ivory no-underline border border-gray-200 dark:border-gray-700 px-2 py-0.5 rounded hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">[GitHub]</a>
-                <a href="https://pypi.org/project/nongaussian-mixtures/" target="_blank"
-                    class="text-gray-500 hover:text-slate dark:text-gray-400 dark:hover:text-ivory no-underline border border-gray-200 dark:border-gray-700 px-2 py-0.5 rounded hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">[PyPI]</a>
+                {{ range .links }}
+                <a href="{{ .url }}" target="_blank"
+                    class="text-gray-500 hover:text-slate dark:text-gray-400 dark:hover:text-ivory no-underline border border-gray-200 dark:border-gray-700 px-2 py-0.5 rounded hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">[{{ .name }}]</a>
+                {{ end }}
             </div>
         </div>
-
-        <a href="https://github.com/mbaelde/sober-selfhost"
-            class="block bg-white dark:bg-dark-bg p-6 rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-gray-300 dark:hover:border-gray-600 transition-all no-underline group block text-inherit">
-            <div class="flex items-center gap-3 mb-3">
-                <i
-                    class="fa-solid fa-laptop text-slate dark:text-gray-300 group-hover:text-blue-500 transition-colors"></i>
-                <h3 class="text-lg font-bold m-0 group-hover:text-blue-500 transition-colors">Sober Selfhost</h3>
-            </div>
-            <p
-                class="text-sm text-gray-600 dark:text-gray-400 font-serif leading-relaxed m-0 group-hover:text-gray-700 dark:group-hover:text-gray-300 transition-colors">
-                Patterns for a home server that sleeps when idle and wakes on demand (Sablier + Caddy), with
-                multi-DB offsite backups and a Wake-on-LAN relay.</p>
-        </a>
+        {{ end }}
     </div>
+
+    {{ if site.Data.contributions }}
+    <h3 class="text-xl font-sans font-bold mt-12 mb-6 relative z-10">Open Source Contributions</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 relative z-10">
+        {{ range site.Data.contributions }}
+        <div
+            class="bg-white dark:bg-dark-bg p-6 rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-gray-300 dark:hover:border-gray-600 transition-all">
+            <div class="flex items-center gap-3 mb-3">
+                <i class="fa-solid fa-code-pull-request text-slate dark:text-gray-300"></i>
+                <h3 class="text-lg font-bold m-0">{{ .title }}</h3>
+            </div>
+            <p class="text-sm text-gray-600 dark:text-gray-400 font-serif leading-relaxed m-0 mb-3">
+                {{ .description }}</p>
+            <div class="flex gap-3 text-sm font-sans font-medium">
+                {{ range .links }}
+                <a href="{{ .url }}" target="_blank"
+                    class="text-gray-500 hover:text-slate dark:text-gray-400 dark:hover:text-ivory no-underline border border-gray-200 dark:border-gray-700 px-2 py-0.5 rounded hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">[{{ .name }}]</a>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    {{ end }}
 </section>
