@@ -1,176 +1,176 @@
 [
-    {
-        "year": "2026",
-        "items": [
-            {
-                "type": "article",
-                "markdown": "Maxime Baelde. \"Threshold-Cascaded Lexicographic Rewards for Multi-Constrained RL in Real-Time Bidding\". Submitted to TMLR (Transactions on Machine Learning Research), under review.",
-                "links": [
-                    {
-                        "name": "openreview",
-                        "url": "https://openreview.net/forum?id=BtLMJhSkIt"
-                    }
-                ]
-            }
+  {
+    "year": "2026",
+    "items": [
+      {
+        "type": "article",
+        "markdown": "Maxime Baelde. \"Threshold-Cascaded Lexicographic Rewards for Multi-Constrained RL in Real-Time Bidding\". Submitted to TMLR (Transactions on Machine Learning Research), under review.",
+        "links": [
+          {
+            "name": "openreview",
+            "url": "https://openreview.net/forum?id=BtLMJhSkIt"
+          }
         ]
-    },
-    {
-        "year": "2024",
-        "items": [
-            {
-                "type": "patent",
-                "markdown": "Maxime Baelde, Nathan Souviraà-Labastie, Raphaël Greff. \"Apparatus and method for audio analysis\". US Patent US11956616B2, April 9, 2024.",
-                "links": [
-                    {
-                        "name": "patent",
-                        "url": "https://patents.google.com/patent/US11956616B2/en"
-                    }
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "year": "2024",
+    "items": [
+      {
+        "type": "patent",
+        "markdown": "Maxime Baelde, Nathan Souviraà-Labastie and Raphaël Greff. \"Apparatus and method for audio analysis\". US Patent US11956616B2, April 9, 2024.",
+        "links": [
+          {
+            "name": "patent",
+            "url": "https://patents.google.com/patent/US11956616B2/en"
+          }
         ]
-    },
-    {
-        "year": "2023",
-        "items": [
-            {
-                "type": "patent",
-                "markdown": "Maxime Baelde, Laurent Mareuge, Julien Roland. \"Système de reconnaissance et d'identification de sources sonores en temps réel\". French Patent FR3109458B1, August 26, 2022.",
-                "links": [
-                    {
-                        "name": "patent",
-                        "url": "https://patents.google.com/patent/FR3109458B1"
-                    }
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "year": "2023",
+    "items": [
+      {
+        "type": "patent",
+        "markdown": "Maxime Baelde, Laurent Mareuge and Julien Roland. \"Système de reconnaissance et d'identification de sources sonores en temps réel\". FR Patent FR3109458B1, August 26, 2022.",
+        "links": [
+          {
+            "name": "patent",
+            "url": "https://patents.google.com/patent/FR3109458B1"
+          }
         ]
-    },
-    {
-        "year": "2019",
-        "items": [
-            {
-                "type": "thesis",
-                "markdown": "Maxime Baelde. \"Modèles génératifs pour la classification et la séparation de sources sonores en temp-réel\". Ph. D thesis, Université de Lille, 2019.",
-                "links": [
-                    {
-                        "name": "thesis",
-                        "url": "https://theses.fr/2019LILUI058"
-                    },
-                    {
-                        "name": "code",
-                        "url": "https://github.com/mbaelde/generative-audio-source-models"
-                    }
-                ]
-            },
-            {
-                "type": "article",
-                "markdown": "Maxime Baelde, Christophe Biernacki and Raphaël Greff. \"Real-Time monophonic and polyphonic audio classification from power spectra\". In : Pattern Recognition 92 (august 2019), p. 82-92.",
-                "links": [
-                    {
-                        "name": "article",
-                        "url": "https://doi.org/10.1016/j.patcog.2019.03.017"
-                    }
-                ]
-            },
-            {
-                "type": "article",
-                "markdown": "Nathan Souviraà-Labastie, Maxime Baelde, Thomas Malet and Raphaël Greff. \"Impact des conditions d'attaques sur les contre-mesures pour la reconnaissance du locuteur\". pre-print Gretsi.",
-                "links": [
-                    {
-                        "name": "preprint",
-                        "url": "https://hal.archives-ouvertes.fr/hal-02079687"
-                    }
-                ]
-            },
-            {
-                "type": "article",
-                "markdown": "Maxime Baelde, Nathan Souviraà-Labastie and Raphaël Greff. \"Influence of the attack conditions on countermeasures for Automatic Speaker Verification\". pre-print Interspeech.",
-                "links": [
-                    {
-                        "name": "preprint",
-                        "url": "https://hal.archives-ouvertes.fr/hal-02082414"
-                    }
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "year": "2019",
+    "items": [
+      {
+        "type": "thesis",
+        "markdown": "Maxime Baelde. \"Modèles génératifs pour la classification et la séparation de sources sonores en temps-réel\". Ph.D thesis, Université de Lille, 2019.",
+        "links": [
+          {
+            "name": "thesis",
+            "url": "https://theses.fr/2019LILUI058"
+          },
+          {
+            "name": "code",
+            "url": "https://github.com/mbaelde/generative-audio-source-models"
+          }
         ]
-    },
-    {
-        "year": "2017",
-        "items": [
-            {
-                "type": "article",
-                "markdown": "Maxime Baelde, Christophe Biernacki, Raphaël Greff. \"Classification de signaux audio en temps-réel par un modèle de mélanges d’histogrammes\". 49èmes Journées de Statistiques, June 2017, Avignon, France.",
-                "links": [
-                    {
-                        "name": "paper",
-                        "url": "http://jds2017.sfds.asso.fr/program/Soumissions/subm97.pdf"
-                    }
-                ]
-            },
-            {
-                "type": "presentation",
-                "markdown": "\"Real-time source sources identification\". Presentation at 7èmes Rencontres Jeunes Statisticiens, 5 April 2017, Porquerolles, France."
-            },
-            {
-                "type": "article",
-                "markdown": "Maxime Baelde, Christophe Biernacki, Raphaël Greff. \"A mixture model-based real-time audio sources classification method\". 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 5-9 Mar 2017, pp. 2427-2431, New Orleans, USA.",
-                "links": [
-                    {
-                        "name": "paper",
-                        "url": "http://ieeexplore.ieee.org/abstract/document/7952592/"
-                    },
-                    {
-                        "name": "poster",
-                        "url": "https://sigport.org/documents/real-time-audio-classifi-cation-based-mixture-models"
-                    }
-                ]
-            },
-            {
-                "type": "presentation",
-                "markdown": "\"Real-time source sources identification\". Presentation at Modal's Day on the first year of the thesis, 20 January 2017, Le Touquet, France."
-            }
+      },
+      {
+        "type": "article",
+        "markdown": "Maxime Baelde, Christophe Biernacki and Raphaël Greff. \"Real-Time monophonic and polyphonic audio classification from power spectra\". In : Pattern Recognition 92 (august 2019), p. 82-92.",
+        "links": [
+          {
+            "name": "paper",
+            "url": "https://doi.org/10.1016/j.patcog.2019.03.017"
+          }
         ]
-    },
-    {
-        "year": "2016",
-        "items": [
-            {
-                "type": "presentation",
-                "markdown": "\"Real-time identification, localization and separation of audio sources in multichannel audio streams, at ReSci : Acoustique, musique, et production sonore humaine ou animale\". Presentation at ANRT on the first 6 month of the thesis, 7 July 2016, Paris, France."
-            },
-            {
-                "type": "presentation",
-                "markdown": "\"Modélisation de spectres sonores par mélange de gaussiennes - Application à la reconnaissance de sources sonores\". Presentation for MASSICCC demo, 7 April 2016, Villeneuve d'Ascq, France."
-            }
+      },
+      {
+        "type": "article",
+        "markdown": "Nathan Souviraà-Labastie, Maxime Baelde, Thomas Malet and Raphaël Greff. \"Impact des conditions d'attaques sur les contre-mesures pour la reconnaissance du locuteur\". pre-print Gretsi.",
+        "links": [
+          {
+            "name": "paper",
+            "url": "https://hal.archives-ouvertes.fr/hal-02079687"
+          }
         ]
-    },
-    {
-        "year": "2015",
-        "items": [
-            {
-                "type": "thesis",
-                "markdown": "\"Modélisation de filtres HRTF et optimisation pour le traitement de spatialisation sonore\". Master thesis, 2015, Université Lille 1.",
-                "links": [
-                    {
-                        "name": "paper",
-                        "url": "https://hal.inria.fr/hal-01339034/"
-                    }
-                ]
-            }
+      },
+      {
+        "type": "article",
+        "markdown": "Maxime Baelde, Nathan Souviraà-Labastie and Raphaël Greff. \"Influence of the attack conditions on countermeasures for Automatic Speaker Verification\". pre-print Interspeech.",
+        "links": [
+          {
+            "name": "paper",
+            "url": "https://hal.archives-ouvertes.fr/hal-02082414"
+          }
         ]
-    },
-    {
-        "year": "2014",
-        "items": [
-            {
-                "type": "article",
-                "markdown": "Maxime Baelde, Jessica De Saedeleer, Jean-Pierre Hermand. \"Experiment to evaluate musical qualities of violin strings\". October 2014, The Journal of the Acoustical Society of America, 136 (4), pp. 2284-2285.",
-                "links": [
-                    {
-                        "name": "abstract",
-                        "url": "http://asa.scitation.org/doi/abs/10.1121/1.4900261"
-                    }
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "year": "2017",
+    "items": [
+      {
+        "type": "article",
+        "markdown": "Maxime Baelde, Christophe Biernacki and Raphaël Greff. \"A mixture model-based real-time audio sources classification method\". 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 5-9 Mar 2017, pp. 2427-2431, New Orleans, USA.",
+        "links": [
+          {
+            "name": "paper",
+            "url": "https://doi.org/10.1109/ICASSP.2017.7952592"
+          },
+          {
+            "name": "poster",
+            "url": "https://sigport.org/documents/real-time-audio-classifi-cation-based-mixture-models"
+          }
         ]
-    }
+      },
+      {
+        "type": "article",
+        "markdown": "Maxime Baelde, Christophe Biernacki, Raphaël Greff. \"Classification de signaux audio en temps-réel par un modèle de mélanges d'histogrammes\". 49èmes Journées de Statistiques, June 2017, Avignon, France.",
+        "links": [
+          {
+            "name": "paper",
+            "url": "http://jds2017.sfds.asso.fr/program/Soumissions/subm97.pdf"
+          }
+        ]
+      },
+      {
+        "type": "presentation",
+        "markdown": "\"Real-time source sources identification\". Presentation at 7èmes Rencontres Jeunes Statisticiens, 5 April 2017, Porquerolles, France."
+      },
+      {
+        "type": "presentation",
+        "markdown": "\"Real-time source sources identification\". Presentation at Modal's Day on the first year of the thesis, 20 January 2017, Le Touquet, France."
+      }
+    ]
+  },
+  {
+    "year": "2016",
+    "items": [
+      {
+        "type": "presentation",
+        "markdown": "\"Real-time identification, localization and separation of audio sources in multichannel audio streams, at ReSci : Acoustique, musique, et production sonore humaine ou animale\". Presentation at ANRT on the first 6 month of the thesis, 7 July 2016, Paris, France."
+      },
+      {
+        "type": "presentation",
+        "markdown": "\"Modélisation de spectres sonores par mélange de gaussiennes - Application à la reconnaissance de sources sonores\". Presentation for MASSICCC demo, 7 April 2016, Villeneuve d'Ascq, France."
+      }
+    ]
+  },
+  {
+    "year": "2015",
+    "items": [
+      {
+        "type": "thesis",
+        "markdown": "Maxime Baelde. \"Modelization of HRTF filters and optimization for 3D audio effect\". Master thesis, 2015, Université de Lille.",
+        "links": [
+          {
+            "name": "paper",
+            "url": "https://hal.archives-ouvertes.fr/hal-01339034"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": "2014",
+    "items": [
+      {
+        "type": "article",
+        "markdown": "Maxime Baelde, Jessica De Saedeleer et Jean-Pierre Hermand. \"Experiment to evaluate musical qualities of violin strings\". In : The Journal of the Acoustical Society of America 136.4 (2014), p. 2284-2285.",
+        "links": [
+          {
+            "name": "abstract",
+            "url": "https://doi.org/10.1121/1.4900261"
+          }
+        ]
+      }
+    ]
+  }
 ]

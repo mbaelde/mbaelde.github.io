@@ -1,39 +1,39 @@
 [
-    {
-        "year": "2026",
-        "items": [
-            {
-                "type": "article",
-                "title": "Carnet de voyage : un an de reinforcement learning en production",
-                "date": "July 2026",
-                "markdown": "A field diary of one year running a reinforcement learning project for real-time bidding: building a market simulator from scratch, sculpting a reward function that encodes a business strategy, and an A/B test that invalidated a core latency assumption within hours. Ends on the reward-shaping inversion that turned out to be a theorem, now under review at TMLR. In French.",
-                "links": [
-                    {
-                        "name": "LinkedIn (FR)",
-                        "url": "https://www.linkedin.com/pulse/carnet-de-voyage-un-reinforcement-learning-en-maxime-baelde-ph-d-muvfe"
-                    },
-                    {
-                        "name": "paper",
-                        "url": "https://openreview.net/forum?id=BtLMJhSkIt"
-                    }
-                ]
-            },
-            {
-                "type": "article",
-                "title": "4 self-hosting failures that return success",
-                "date": "July 2026",
-                "markdown": "Four ways a self-hosted server reports success while being broken: a `200` on a gated WebDAV endpoint, a healthcheck with no `curl` in the image, a backup that exits 0 with an empty archive, and a Wake-on-LAN packet that quietly evaporates. Companion repo: [sober-selfhost](https://github.com/mbaelde/sober-selfhost).",
-                "links": [
-                    {
-                        "name": "dev.to (EN)",
-                        "url": "https://dev.to/mbaelde/4-self-hosting-failures-that-return-success-1go5"
-                    },
-                    {
-                        "name": "LinkedIn (FR)",
-                        "url": "https://www.linkedin.com/pulse/les-pannes-de-self-hosting-qui-te-mentent-maxime-baelde-ph-d-rl6de"
-                    }
-                ]
-            }
+  {
+    "year": "2026",
+    "items": [
+      {
+        "type": "article",
+        "title": "Carnet de voyage : un an de reinforcement learning en production",
+        "date": "July 2026",
+        "markdown": "A field diary of one year running a reinforcement learning project for real-time bidding: building a market simulator from scratch, sculpting a reward function that encodes a business strategy, and an A/B test that invalidated a core latency assumption within hours. Ends on the reward-shaping inversion that turned out to be a theorem, now under review at TMLR. In French.",
+        "links": [
+          {
+            "name": "LinkedIn (FR)",
+            "url": "https://www.linkedin.com/pulse/carnet-de-voyage-un-reinforcement-learning-en-maxime-baelde-ph-d-muvfe"
+          },
+          {
+            "name": "paper",
+            "url": "https://openreview.net/forum?id=BtLMJhSkIt"
+          }
         ]
-    }
+      },
+      {
+        "type": "article",
+        "title": "4 self-hosting failures that return success",
+        "date": "July 2026",
+        "markdown": "Four ways a self-hosted server reports success while being broken: a `200` on a gated WebDAV endpoint, a healthcheck with no `curl` in the image, a backup that exits 0 with an empty archive, and a Wake-on-LAN packet that quietly evaporates. Companion repo: [sober-selfhost](https://github.com/mbaelde/sober-selfhost).",
+        "links": [
+          {
+            "name": "dev.to (EN)",
+            "url": "https://dev.to/mbaelde/4-self-hosting-failures-that-return-success-1go5"
+          },
+          {
+            "name": "LinkedIn (FR)",
+            "url": "https://www.linkedin.com/pulse/les-pannes-de-self-hosting-qui-te-mentent-maxime-baelde-ph-d-rl6de"
+          }
+        ]
+      }
+    ]
+  }
 ]
