@@ -19,10 +19,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          repos=$(gh api users/mbaelde/repos --paginate -q '.[] | select(.archived == false and .fork == false)')
+          repos=$(gh api users/mbaelde/repos --paginate -q '.[] | select(.archived == false)')
 
           echo "$repos" | jq -s '
-            [.[] | select(.topics != null and (.topics | index("portfolio")))
+            [.[] | select(.fork == false and .topics != null and (.topics | index("portfolio")))
              | {title: .name, description: .description, links: (
                  [{name: "GitHub", url: .html_url}]
                  + (if .homepage != null and .homepage != "" then [{name: (if (.homepage | test("pypi.org")) then "PyPI" else "Link" end), url: .homepage}] else [] end)
