@@ -4,6 +4,26 @@
     "items": [
       {
         "type": "article",
+        "markdown": "Maxime Baelde. \"Geometric Ceilings on Time-Frequency Masking for Single-Channel Separation\". Submitted to Digital Signal Processing (Elsevier), under review. arXiv preprint arXiv:2609.03481.",
+        "links": [
+          {
+            "name": "arxiv",
+            "url": "https://arxiv.org/abs/2609.03481"
+          }
+        ]
+      },
+      {
+        "type": "article",
+        "markdown": "Maxime Baelde. \"What Selects, What Reconstructs: Repairing Exemplar-Based Complex-Spectrum Separation\". Submitted to IEEE/ACM Transactions on Audio, Speech and Language Processing, under review. arXiv preprint arXiv:2609.04756.",
+        "links": [
+          {
+            "name": "arxiv",
+            "url": "https://arxiv.org/abs/2609.04756"
+          }
+        ]
+      },
+      {
+        "type": "article",
         "markdown": "Maxime Baelde. \"From \"Different\" to \"Better\": What It Would Take to Show That a Hiring Protocol Works\". Zenodo preprint, CC BY 4.0.",
         "links": [
           {
