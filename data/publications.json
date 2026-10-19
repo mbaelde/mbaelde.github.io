@@ -4,6 +4,20 @@
     "items": [
       {
         "type": "article",
+        "markdown": "Maxime Baelde. \"Parametric Resonance in Primal-Dual Learning for Slowly Non-Stationary Constrained MDPs\". arXiv preprint arXiv:2610.23788.",
+        "links": [
+          {
+            "name": "arxiv",
+            "url": "https://arxiv.org/abs/2610.23788"
+          },
+          {
+            "name": "code",
+            "url": "https://github.com/mbaelde/dualdynamics-code"
+          }
+        ]
+      },
+      {
+        "type": "article",
         "markdown": "Maxime Baelde. \"Geometric Ceilings on Time-Frequency Masking for Single-Channel Separation\". Submitted to Digital Signal Processing (Elsevier), under review. arXiv preprint arXiv:2609.03481.",
         "links": [
           {
