@@ -16,7 +16,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 relative z-10">
         {{ range site.Data.portfolio }}
         <div
-            class="bg-white dark:bg-dark-bg p-6 rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-gray-300 dark:hover:border-gray-600 transition-all">
+            class="bg-white dark:bg-dark-bg p-6 rounded-xl border border-gray-100 dark:border-gray-800 shadow-xs hover:shadow-md hover:border-gray-300 dark:hover:border-gray-600 transition-all">
             <div class="flex items-center gap-3 mb-3">
                 <i class="fa-solid fa-laptop text-slate dark:text-gray-300"></i>
                 <h3 class="text-lg font-bold m-0">{{ .title }}</h3>
@@ -26,7 +26,7 @@
             <div class="flex gap-3 text-sm font-sans font-medium">
                 {{ range .links }}
                 <a href="{{ .url }}" target="_blank"
-                    class="text-gray-500 hover:text-slate dark:text-gray-400 dark:hover:text-ivory no-underline border border-gray-200 dark:border-gray-700 px-2 py-0.5 rounded hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">[{{ .name }}]</a>
+                    class="text-gray-500 hover:text-slate dark:text-gray-400 dark:hover:text-ivory no-underline border border-gray-200 dark:border-gray-700 px-2 py-0.5 rounded-sm hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">[{{ .name }}]</a>
                 {{ end }}
             </div>
         </div>
@@ -38,7 +38,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 relative z-10">
         {{ range site.Data.contributions }}
         <div
-            class="bg-white dark:bg-dark-bg p-6 rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-gray-300 dark:hover:border-gray-600 transition-all">
+            class="bg-white dark:bg-dark-bg p-6 rounded-xl border border-gray-100 dark:border-gray-800 shadow-xs hover:shadow-md hover:border-gray-300 dark:hover:border-gray-600 transition-all">
             <div class="flex items-center gap-3 mb-3">
                 <i class="fa-solid fa-code-pull-request text-slate dark:text-gray-300"></i>
                 <h3 class="text-lg font-bold m-0">{{ .title }}</h3>
@@ -48,7 +48,7 @@
             <div class="flex gap-3 text-sm font-sans font-medium">
                 {{ range .links }}
                 <a href="{{ .url }}" target="_blank"
-                    class="text-gray-500 hover:text-slate dark:text-gray-400 dark:hover:text-ivory no-underline border border-gray-200 dark:border-gray-700 px-2 py-0.5 rounded hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">[{{ .name }}]</a>
+                    class="text-gray-500 hover:text-slate dark:text-gray-400 dark:hover:text-ivory no-underline border border-gray-200 dark:border-gray-700 px-2 py-0.5 rounded-sm hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">[{{ .name }}]</a>
                 {{ end }}
             </div>
         </div>
