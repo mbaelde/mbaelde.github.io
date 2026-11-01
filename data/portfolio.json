@@ -21,7 +21,7 @@
   },
   {
     "title": "generative-audio-source-models",
-    "description": "Generative models for real-time audio source classification and separation (PhD thesis, Univ. Lille 2019)",
+    "description": "Generative models for real-time audio source classification and separation (PhD thesis, Univ. Lille 2019).",
     "links": [
       {
         "name": "GitHub",
@@ -55,7 +55,7 @@
   },
   {
     "title": "simple-vad",
-    "description": "Voice Activity Detector: signal-processing beamforming + CNN classifier",
+    "description": "Voice Activity Detector: signal-processing beamforming + CNN classifier.",
     "links": [
       {
         "name": "GitHub",
@@ -65,7 +65,7 @@
   },
   {
     "title": "sober-selfhost",
-    "description": "Energy-sober self-hosting on consumer hardware: on-demand containers (Sablier) gated behind Caddy, multi-DB encrypted backups (Postgres/MariaDB/SQLite → rclone crypt), bidirectional Wake-on-LAN over Tailscale, and battle-tested Docker healthcheck fixes. A NAS that sleeps when idle and wakes on demand.",
+    "description": "Energy-sober self-hosting on consumer hardware: on-demand containers (Sablier) gated behind Caddy, multi-DB encrypted backups (Postgres/MariaDB/SQLite -> rclone crypt), bidirectional Wake-on-LAN over Tailscale, and battle-tested Docker healthcheck fixes.",
     "links": [
       {
         "name": "GitHub",
